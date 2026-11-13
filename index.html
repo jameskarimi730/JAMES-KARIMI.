@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="James Karimi — IT student, web developer, graphic designer and digital creative from Embu, Kenya.">
+  <title>James Karimi | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">JK<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Contact me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <p class="intro">Hello, I'm</p>
+        <h1>James <span>Karimi.</span></h1>
+        <h2>IT Student · Web Developer · Digital Creative</h2>
+        <p class="hero-text">I enjoy using technology and creativity to solve problems, build useful digital experiences and help ideas move forward.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <p class="location">⌖ Embu, Kenya</p>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Portrait of James Karimi" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');">
+          <div class="photo-fallback"><span>JK</span><small>ADD YOUR PHOTO</small></div>
+        </div>
+        <div class="floating-card"><span class="card-icon">✦</span><div><strong>Creative mindset</strong><small>Learning. Building. Growing.</small></div></div>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious mind.<br><span>Practical solutions.</span></h2></div>
+      <div class="about-content">
+        <p>I am a student at the University of Embu with an interest in information technology, web development and digital creativity. I am hardworking, adaptable and always ready to learn new skills.</p>
+        <p>My goal is to use what I learn to create solutions that make work easier for individuals, businesses and organisations. I also enjoy music and serving as a drummer.</p>
+        <div class="about-tags"><span>Problem solving</span><span>Teamwork</span><span>Continuous learning</span><span>Creativity</span></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">WHAT I CAN DO</p><h2>Skills & <span>interests.</span></h2></div>
+        <div class="skill-grid">
+          <article class="skill-card"><div class="skill-number">01</div><h3>Web Development</h3><p>Building clean, responsive websites and learning to turn ideas into working digital products.</p></article>
+          <article class="skill-card"><div class="skill-number">02</div><h3>Graphic Design</h3><p>Creating visual designs and branded content for individuals, teams and businesses.</p></article>
+          <article class="skill-card"><div class="skill-number">03</div><h3>Social Media</h3><p>Helping organise, create and manage engaging content for social platforms.</p></article>
+          <article class="skill-card"><div class="skill-number">04</div><h3>IT Support</h3><p>Interested in computer maintenance, troubleshooting and practical technology support.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><h2>Things I'm <span>building.</span></h2></div>
+      <div class="project-grid">
+        <article class="project-card project-feature">
+          <div class="project-top"><span>01 / BUSINESS</span><span class="project-symbol">↗</span></div>
+          <h3>Nexora Technologies</h3>
+          <p>A growing IT solutions brand focused on web development, graphic design, computer support, digital marketing and technology services.</p>
+          <span class="project-type">Brand development · IT solutions</span>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>02 / PROGRAMMING</span><span class="project-symbol">⌘</span></div>
+          <h3>Hotel Booking Management System</h3>
+          <p>A C programming project designed to practise booking records and basic hotel management operations.</p>
+          <span class="project-type">C programming · Learning project</span>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span>03 / CREATIVE</span><span class="project-symbol">✳</span></div>
+          <h3>Digital Design & Content</h3>
+          <p>Graphic design and social media content work developed through practice and creative projects.</p>
+          <span class="project-type">Graphic design · Social media</span>
+        </article>
+      </div>
+      <p class="project-note">More projects will be added as I continue learning and building.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">LET'S CONNECT</p><h2>Have an idea?<br><span>Let's talk.</span></h2><p class="contact-copy">I'm open to learning opportunities, collaborations and conversations about technology and creative work.</p></div>
+        <div class="contact-details">
+          <a href="mailto:Jameskarimi730@gmail.com"><small>EMAIL</small><strong>Jameskarimi730@gmail.com ↗</strong></a>
+          <a href="tel:0740114300"><small>PHONE</small><strong>0740114300 ↗</strong></a>
+          <a href="https://www.instagram.com/life_beats_254/" target="_blank" rel="noopener"><small>INSTAGRAM</small><strong>@life_beats_254 ↗</strong></a>
+          <a href="https://www.tiktok.com/@drummer14th" target="_blank" rel="noopener"><small>TIKTOK</small><strong>@drummer14th ↗</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="logo" href="#home">JK<span>.</span></a><p>© <span id="year"></span> James Karimi. Built with purpose.</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
